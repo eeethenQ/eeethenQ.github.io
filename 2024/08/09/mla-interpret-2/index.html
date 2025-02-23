@@ -13,21 +13,21 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="Zihui">
+  <meta name="author" content="Ethan">
   <meta name="keywords" content="">
   
     <meta name="description" content="Introduction 在上一节中, 我们介绍了Multi-head Attention以及接下来的变种MQA以及GQA, 那么这一篇我们就主要来讲讲之后的新创新 Multi-head Latent Attention (MLA) 回顾GQA 在进入正题之前, 我需要先纠正一下上一篇中的一些内容. 在上一篇中, 我把GQA的过程描述成从num_heads中选择num_key_value_head">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MHA（2）： Multi-head Latent Attention (MLA) 在说什么">
 <meta property="og:url" content="https://eeethenq.github.io/2024/08/09/mla-interpret-2/index.html">
-<meta property="og:site_name" content="Qian的技术博客">
+<meta property="og:site_name" content="闲言逸语">
 <meta property="og:description" content="Introduction 在上一节中, 我们介绍了Multi-head Attention以及接下来的变种MQA以及GQA, 那么这一篇我们就主要来讲讲之后的新创新 Multi-head Latent Attention (MLA) 回顾GQA 在进入正题之前, 我需要先纠正一下上一篇中的一些内容. 在上一篇中, 我把GQA的过程描述成从num_heads中选择num_key_value_head">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://github.com/eeethenQ/picx-images-hosting/raw/master/blogs/mha-task/p1.7sn6kfeqco.jpg">
 <meta property="og:image" content="https://github.com/eeethenQ/picx-images-hosting/raw/master/blogs/mha-task/p2.6bh1ioalm1.jpg">
 <meta property="article:published_time" content="2024-08-09T15:58:23.000Z">
 <meta property="article:modified_time" content="2024-09-27T18:48:05.703Z">
-<meta property="article:author" content="Zihui">
+<meta property="article:author" content="Ethan">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://github.com/eeethenQ/picx-images-hosting/raw/master/blogs/mha-task/p1.7sn6kfeqco.jpg">
   
@@ -35,7 +35,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>MHA（2）： Multi-head Latent Attention (MLA) 在说什么 - Qian的技术博客</title>
+  <title>MHA（2）： Multi-head Latent Attention (MLA) 在说什么 - 闲言逸语</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -101,7 +101,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Qian的技术博客</strong>
+      <strong>闲言逸语</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -456,7 +456,7 @@ V = W_V X \\
       
         <div class="license-meta-item">
           <div>作者</div>
-          <div>Zihui</div>
+          <div>Ethan</div>
         </div>
       
       
